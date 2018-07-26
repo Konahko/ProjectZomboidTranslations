@@ -236,8 +236,8 @@ UI_RU = " {
 	UI_worldscreen_MapNotFound = "Ќевозможно найти карту.  ѕроверьте правильность установки соответствующего мода.",
 	UI_worldscreen_SavefileCorrupt = "—охранение было повреждено.  ¬ерси€ мира равна нулю.",
 	UI_worldscreen_SavefileOld = "Ёто сохранение слишком устарело дл€ загрузки.",
-	UI_worldscreen_SavefileVehicle = "Є„-„– бв’я’ЁЎ Ў„№’Ё’ЁЎў, Ё’ё—её‘Ў№ле ‘џп “Ё’‘а’ЁЎп ва–ЁбяёавЁле ба’‘бв“, бёеа–Ё’ЁЎп Ў„ а–ЁЁЎе “’абЎў Ё’ бё“№’бвЎ№л. <LINE> <LINE> іџп вё”ё, звё—л яаё‘ёџ÷Ўвм Ў”аг: „–‘’ўбв“гов pre-vehicles Build 38.30 з’а’„ ёЏЁё яё‘Џџоз’ЁЎў —’в–-“’абЎў <LINE> <LINE> SavedGameWorldVersion: %1 CurrentWorldVersion: %2",
-	UI_worldscreen_SaveCannotBeLoaded = "Ѕёеа–Ё’ЁЎ’ Ё’ №ё÷’в —лвм „–”аг÷’Ёё. <LINE> ",
+    	UI_worldscreen_SavefileVehicle = "»з за объема изменений, требуемых дл€ введени€ транспортных средств, ранние сохранени€ не совместимы<LINE> <LINE> „тобы продолжить игру: откатитесь до предварительной версии транспортных средств Build 38.30 через вкладку бета версии. <LINE> <LINE> SavedGameWorldVersion: %1 CurrentWorldVersion: %2",
+	UI_worldscreen_SaveCannotBeLoaded = "—охранение не может быть загружено.<LINE> ",
 
 -- login screen (lua)
 	UI_loginscreen_desurakey = " люч Desura:",
@@ -302,7 +302,6 @@ UI_RU = " {
 	UI_prof_FitnessInstructor = "»нструктор по фитнессу",
 	UI_prof_Lumberjack = "ƒровосек",
 	UI_prof_Mechanics = "ћеханик",
-	UI_prof_MetalWorker = "ћеталлист",
 	UI_prof_MetalWorker = "ћеталлист",
 	UI_prof_Nurse = "ћедперсонал",
 	UI_prof_parkranger = "ѕарковый смотритель",
@@ -756,6 +755,10 @@ UI_RU = " {
 	UI_NewGame_Sandbox_desc = "Ќастройте ваш собственный зомби апокалипсис! ”мрите наиболее интересным дл€ вас способом...",
 	UI_NewGame_Challenges = "»спытани€",
 	UI_NewGame_SelectDifficulty = "¬ыберите уровень сложности дл€ продолжени€.",
+   	UI_NewGame_SurvivalMore = " - –екомендуемый игровой опыт",
+    	UI_NewGame_OneWeekLater = "Ќедел€ спуст€",
+    	UI_NewGame_OneWeekLaterMore = " - ƒл€ казуалов",
+    	UI_NewGame_SixMonthsMore = " - ƒл€ профессионалов",
 	
 -- mods
 	UI_mods_ConflictDetected = "ћежду выбранными вами пользовательскими картами есть совпадени€. „тобы определить, кака€ карта будет отображаетс€ при перекрытии, используйте функцию ѕор€док приоритета карт.",
@@ -1051,6 +1054,10 @@ UI_RU = " {
 	UI_OnConnectFailed_ModRequired = "ћод "%1" не установлен",
 	UI_GameLoad_UnexpectedError1 = "ѕроизошла неизвестна€ ошибка. ѕросим извинени€ за неудобство.  Ќажмите Escape или левую кнопку мыши, чтобы выйти.",
 	UI_GameLoad_UnexpectedError2 = "”казанный файл может иметь полезную информацию об этой ошибке:",
+   	UI_GameLoad_HowToExit = "Ќажмите Escape или левую кнопку мышки чтобы выйти.",
+    	UI_GameLoad_MapDownloadFailed = "ќшибка загрузки карты с сервера.",
+    	UI_GameLoad_KickChecksum = "¬ы были изгнанны, т.к ваши игровые файлы не соответствуют серверным",
+    	UI_GameLoad_TimedOut = "“аймаут ожидани€ ответа от сервера.",
 
 -- vehicle messages
 	UI_Vehicle_HeaterNeedKey = "«аведите транспорт или вставьте ключ в замок зажигани€ чтобы включить отопитель/кондиционер.",
