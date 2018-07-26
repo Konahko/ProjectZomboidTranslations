@@ -167,6 +167,7 @@ UI_RU = " {
 	UI_optionscreen_player2 = "Шу№юъ #2",
 	UI_optionscreen_player3 = "Шу№юъ #3",
 	UI_optionscreen_player4 = "Шу№юъ #4",
+	UI_optionscreen_context_menu_font = "и№шєђ ъюэђхъђэюую ьхэў",
 	UI_optionscreen_PlayerOnly = "вюыќъю шу№юъш",
 	UI_optionscreen_pressKeyToBind = "Эрцьшђх ыўсѓў ъыртшјѓ фыџ я№штџчъш %1",
 	UI_optionscreen_rack_progress = "Яюърчћтрђќ я№юу№хёё тчтхфхэшџ",
@@ -238,6 +239,7 @@ UI_RU = " {
 	UI_worldscreen_SavefileOld = "нђю ёюѕ№рэхэшх ёышјъюь ѓёђр№хыю фыџ чру№ѓчъш.",
 	UI_worldscreen_SavefileVehicle = "Из-за степени изменений, необходимых для внедрения транспортных средств, сохранения из ранних версий не совместимы. <LINE> <LINE> Для того, чтобы продолжить игру: задействуют pre-vehicles Build 38.30 через окно подключений бета-версий <LINE> <LINE> SavedGameWorldVersion: %1 CurrentWorldVersion: %2",
 	UI_worldscreen_SaveCannotBeLoaded = "Сохранение не может быть загружено. <LINE> ",
+UI_worldscreen_SavefileNewerThanGame = "бюѕ№рэшђќ єрщы шч эютющ тх№ёшш шу№ћ",
 
 -- login screen (lua)
 	UI_loginscreen_desurakey = "Ъыўї Desura:",
